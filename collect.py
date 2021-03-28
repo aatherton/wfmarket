@@ -30,5 +30,5 @@ for each in items:
   except:
     pipe = 0
   # add {each.url_name: mode} to result
-  result[each.url_name] = pipe
+  result[each['url_name']] = pipe
 return result
